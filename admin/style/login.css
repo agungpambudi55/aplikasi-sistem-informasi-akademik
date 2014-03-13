@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:"Century Gothic";
+}
+body{
+	background:url(image/bg.jpg);
+}
+#content{
+	color:#333;
+	background:rgba(0,0,0,0.01);
+	border:1px solid #D3D3D3;
+	width:280px;
+	padding:65px 60px 25px 60px;
+	margin:auto;
+	margin-top:-300px;
+	box-shadow:0px 0px 40px #D2D2D2 inset
+}
+#tulisan{
+	border:0px solid gray;
+	font-size:40px;
+	position:absolute;
+	margin:-50px 0px 0px 13px;
+	color:#0089D2
+}
+#tali_kiri{
+	position:absolute;
+	border:1px solid gray;
+	height:320px;
+	margin:-365px 0px 0px -35px;
+}
+#tali_kanan{
+	position:absolute;
+	border:1px solid gray;
+	height:320px;
+	margin:-365px 0px 0px 315px;
+}
+#gandul_kiri{
+	background:url(image/bg.jpg);
+	position:absolute;
+	border:1px solid #999;
+	padding:5px;
+	border-radius:100%;
+	margin:-50px 0px 0px -40px;
+}
+#gandul_kanan{
+	background:url(image/bg.jpg);
+	position:absolute;
+	border:1px solid #999;
+	padding:5px;
+	border-radius:100%;
+	margin:-50px 0px 0px 310px;
+}
+#input{
+	border:1px solid #C9C9C9;
+	border-radius:2px;
+	padding:8px 6px 10px 6px;
+	box-shadow:0px -3px 10px #F1F1F1 inset;
+}
+#input:hover{
+	border:1px solid #02AAFB;
+	transition:all ease-in 0.2s;
+}
+#input:focus{
+	border:1px solid #02AAFB;
+	box-shadow:0px 0px 4px #C5C5C5;
+}
+#masuk{
+	border-radius:2px;
+	padding:7px 6px 9px 6px;
+	border:1px solid #C9C9C9;
+	box-shadow:0px -8px 15px #E1E1E1 inset;
+	background:#FFFFFF;
+}
+#masuk:hover{
+	transition:all ease-in 0.2s;
+	cursor:pointer;
+	box-shadow:0px -2px 15px #E1E1E1 inset;
+}
+#pakecookie{
+	margin:6px 0px 0px 55px;
+}
+#footer{
+	font-weight:bold;
+	text-align:center;
+	color:#666
+}
+.notif{
+	padding:20px 20px;
+	background:#666666;
+	position:fixed;
+	color:#FFFFFF;
+	margin-top:80px;
+}
+#notifclose{
+	cursor:pointer;
+	position:fixed;
+	margin:-20px 0px 0px 7px;
+}
+#line{
+	position:fixed;
+	background:#333;
+	height:4px;
+	width:0%;
+	top:0;
+}
+#load{
+	position:fixed;
+	bottom:0px;
+	margin:auto;
+	background:#11ACFF;
+	height:70px;
+	margin-bottom:-120px;
+	right:47%;
+	padding:20px 20px;
+	border-radius:6px 6px 0px 0px;
+	border:1px solid #0089D2;
+	box-shadow:0px 0px 4px #0089D2 inset;
+}
